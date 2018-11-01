@@ -1,0 +1,7 @@
+terraform_infra_repo: ecs-alb-efs
+product: andymotta
+tf_force_init: true
+
+tf_vars:
+  admin_cidr_ingress: '10.0.0.0/8'
+  key_name: ansible-ec2
