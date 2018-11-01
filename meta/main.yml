@@ -1,0 +1,3 @@
+dependencies:
+  - src: https://github.com/andymotta/ansible-role-terraform
+    name: terraform

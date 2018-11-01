@@ -6,7 +6,7 @@
 
   - name: Install Terraform if not installed
     include_role:
-      name: ~/git/ansible-role-terraform
+      name: terraform
     when: is_installed.stdout.find('command not found') != -1
 
   - name: Checkout infra code from Github
